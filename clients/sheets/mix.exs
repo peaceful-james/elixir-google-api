@@ -40,7 +40,7 @@ defmodule GoogleApi.Sheets.Mixfile do
 
   defp deps() do
     [
-      {:google_gax, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps", subdir: "clients/gax"},
+      {:google_gax, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps"},
       {:ex_doc, "~> 0.16", only: :dev}
     ]
   end
