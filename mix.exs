@@ -44,7 +44,8 @@ defmodule GoogleApis.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:google_api_discovery, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps"},
+      # {:google_api_discovery, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps"},
+      {:google_api_discovery, path: "clients/discovery"},
       {:tesla, "~> 1.8"},
       {:oauth2, "~> 0.9"},
       {:temp, "~> 0.4"},
