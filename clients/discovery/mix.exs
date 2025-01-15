@@ -40,8 +40,7 @@ defmodule GoogleApi.Discovery.Mixfile do
 
   defp deps() do
     [
-      {:google_gax, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps"},
-      # {:google_gax, path: "../gax"},
+      {:google_gax, github: "peaceful-james/elixir-google-api", branch: "update-gax-deps", subdir: "clients/gax"},
       {:ex_doc, "~> 0.16", only: :dev}
     ]
   end
